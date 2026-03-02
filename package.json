@@ -1,0 +1,18 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "Design system tokens and components — shadcn/ui based",
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.js",
+    "tokens:watch": "nodemon --watch tokens/tokens.json --exec npm run tokens:build",
+    "dev": "npm run tokens:build && next dev",
+    "build": "npm run tokens:build && next build"
+  },
+  "keywords": [
+    "design-system",
+    "tokens",
+    "shadcn",
+    "tailwind"
+  ],
+  "license": "MIT"
+}

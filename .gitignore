@@ -1,0 +1,7 @@
+node_modules/
+.next/
+dist/
+
+# Generated files — rebuild with `npm run tokens:build`
+src/styles/tokens.css
+tokens/tailwind-tokens.js
